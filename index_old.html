@@ -4,216 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah Khairy - C++ Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        
-        /* Header styles */
-        header {
-            background-color: #2c3e50;
-            color: white;
-            padding: 30px 0;
-        }
-        
-        .profile h1 {
-            font-size: 2.2rem;
-            margin-bottom: 5px;
-        }
-        
-        .profile h2 {
-            font-size: 1.4rem;
-            font-weight: normal;
-            color: #ecf0f1;
-            margin-bottom: 15px;
-        }
-        
-        .contact-info {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 20px;
-        }
-        
-        .contact-info p {
-            margin-right: 20px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .contact-info i {
-            margin-right: 8px;
-            color: #3498db;
-            width: 16px;
-            text-align: center;
-        }
-        
-        .contact-info a {
-            color: white;
-            text-decoration: none;
-        }
-        
-        .contact-info a:hover {
-            color: #3498db;
-            text-decoration: underline;
-        }
-        
-        /* Navigation styles */
-        nav {
-            background-color: #34495e;
-            border-bottom: 3px solid #3498db;
-        }
-        
-        nav ul {
-            list-style: none;
-            display: flex;
-            padding: 0;
-        }
-        
-        nav ul li {
-            margin: 0;
-        }
-        
-        nav ul li a {
-            display: block;
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            transition: background-color 0.3s;
-        }
-        
-        nav ul li a:hover,
-        nav ul li a:focus {
-            background-color: #3498db;
-            color: white;
-            outline: none;
-        }
-        
-        /* Main content styles */
-        main {
-            padding: 30px 0;
-        }
-        
-        section {
-            background-color: white;
-            padding: 25px;
-            margin-bottom: 30px;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-        
-        section h2 {
-            color: #2c3e50;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #3498db;
-        }
-        
-        .experience-item, 
-        .education-item, 
-        .project-item {
-            margin-bottom: 25px;
-        }
-        
-        .experience-item h3, 
-        .education-item h3, 
-        .project-item h3 {
-            color: #2c3e50;
-            margin-bottom: 5px;
-        }
-        
-        .job-title {
-            color: #3498db;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        
-        ul {
-            padding-left: 20px;
-        }
-        
-        ul li {
-            margin-bottom: 8px;
-        }
-        
-        /* Skills section */
-        .skills-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        
-        .skill-category h3 {
-            color: #3498db;
-            margin-bottom: 10px;
-        }
-        
-        .skill-category ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-        
-        .skill-category ul li {
-            padding: 5px 0;
-            border-bottom: 1px solid #eee;
-        }
-        
-        /* Project tags */
-        .project-tag {
-            display: none;
-        }
-        
-        /* Links */
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
-        /* Footer */
-        footer {
-            background-color: #2c3e50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        
-        /* Responsive design */
-        @media (max-width: 768px) {
-            .contact-info {
-                flex-direction: column;
-                gap: 10px;
-            }
-            
-            nav ul {
-                flex-direction: column;
-            }
-            
-            .skills-container {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -240,7 +32,7 @@
                 <li><a href="#education">Education</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#job-opportunities">Job Opportunities</a></li>
             </ul>
         </div>
     </nav>
@@ -358,6 +150,7 @@
             
             <div class="project-item">
                 <h3>Automotive Control System Simulator</h3>
+                <p class="project-tag">For Luxoft</p>
                 <ul>
                     <li>Developed a comprehensive simulator for automotive body control modules using C++17</li>
                     <li>Implemented state machine architecture for managing different vehicle components (windows, doors, lights)</li>
@@ -370,6 +163,7 @@
 
             <div class="project-item">
                 <h3>Medical Image Processing Library</h3>
+                <p class="project-tag">For Atomica</p>
                 <ul>
                     <li>Designed and implemented a C++ library for processing and analyzing medical images</li>
                     <li>Utilized linear algebra and computational geometry for image transformation and analysis</li>
@@ -478,6 +272,135 @@
                 <li>Advanced C++ Programming (Udemy)</li>
                 <li>Data Structures and Algorithms in C++ (Coursera)</li>
             </ul>
+        </section>
+
+        <section id="job-opportunities">
+            <h2>C++ Developer Job Opportunities in Cairo, Egypt</h2>
+            
+            <div class="job-item">
+                <h3>Junior C++ Software Developer at Luxoft</h3>
+                <p><strong>Location:</strong> Remote, Egypt</p>
+                <p><strong>Industry:</strong> Automotive</p>
+                <p><strong>Job Type:</strong> Full-time</p>
+                
+                <h4>Job Description</h4>
+                <p>Luxoft is seeking a Junior C++ Software Developer to join their team working on next-generation ECU development for a renowned German automotive manufacturer. The role involves developing embedded C++ applications for vehicle body functionalities including sunroof, convertible, lift gate functions, and automatic doors.</p>
+                
+                <h4>Key Responsibilities</h4>
+                <ul>
+                    <li>Development, maintenance, and integration of new features in Embedded C++ for next-generation ECUs</li>
+                    <li>Code analysis, debugging, refactoring, and optimizing legacy code</li>
+                    <li>Writing unit tests within a given test framework</li>
+                    <li>Contributing to software architecture and requirements clarification</li>
+                    <li>Potential HIL testing and test creation</li>
+                </ul>
+                
+                <h4>Why This is a Good Match</h4>
+                <p>Your embedded systems experience with PIC18F MCUs and layered software architecture (HAL/MCAL/ECUAL) aligns perfectly with this role. Your projects like Smart Home System, Door Security System, and Traffic Light Control System demonstrate relevant experience in embedded C++ development. Your current role as a C++ Software Engineer also provides valuable commercial development experience.</p>
+                
+                <p><a href="https://career.luxoft.com/jobs/junior-c-software-developer-12500" target="_blank">Apply at Luxoft Career Portal</a></p>
+            </div>
+            
+            <div class="job-item">
+                <h3>C++ Software Engineer at Atomica</h3>
+                <p><strong>Location:</strong> Cairo, Egypt</p>
+                <p><strong>Industry:</strong> Medical Imaging/Healthcare</p>
+                <p><strong>Job Level:</strong> Entry Level (Junior Level / Fresh Grad)</p>
+                
+                <h4>Job Description</h4>
+                <p>Atomica.ai is seeking C++ Developers to join their R&D team in Cairo to develop medical imaging software systems. The role involves researching, implementing, testing, and documenting medical imaging software.</p>
+                
+                <h4>Key Responsibilities</h4>
+                <ul>
+                    <li>Designing solutions to complex problems with assistance from senior engineers</li>
+                    <li>Developing prototypes through to completion</li>
+                    <li>Contributing to medical imaging software systems</li>
+                </ul>
+                
+                <h4>Requirements</h4>
+                <ul>
+                    <li>Proficiency in C++11 with knowledge of C++ standard library containers and algorithms</li>
+                    <li>Strong mathematics background, especially in Linear Algebra</li>
+                    <li>Experience with Qt is a plus</li>
+                    <li>Knowledge of 3D Graphics APIs is a plus (OpenGL-3.3+, DirectX11)</li>
+                </ul>
+                
+                <h4>Why This is a Good Match</h4>
+                <p>Your C++ programming skills and mathematics background make you a strong candidate. Your experience with object-oriented programming and your Snake Game project demonstrates graphics programming capabilities relevant to this role. This position offers an opportunity to apply your C++ skills in the healthcare industry, working on technology that improves patients' lives.</p>
+                
+                <p><a href="https://wuzzuf.net/jobs/p/kZzLRJRMvuGQ-C-Software-Engineer-Atomica-Cairo-Egypt" target="_blank">Apply at Wuzzuf</a></p>
+            </div>
+            
+            <h3>Additional Job Search Resources</h3>
+            <div class="resources">
+                <h4>Job Platforms with C++ Developer Positions in Cairo:</h4>
+                <ul>
+                    <li><a href="https://eg.jooble.org/jobs-c%2B%2B-software-developer/Cairo" target="_blank">Jooble - C++ Software Developer Jobs in Cairo</a></li>
+                    <li><a href="https://wuzzuf.net/jobs/search?q=c%2B%2B+developer&a=navbr" target="_blank">Wuzzuf - C++ Software Engineer Jobs in Cairo</a></li>
+                    <li><a href="https://www.linkedin.com/jobs/search/?keywords=c%2B%2B%20developer&location=Cairo%2C%20Egypt" target="_blank">LinkedIn Jobs - C++ Developer Jobs in Cairo</a></li>
+                    <li><a href="https://www.glassdoor.com/Job/egypt-c-developer-jobs-SRCH_IL.0,5_IN69_KO6,17.htm" target="_blank">Glassdoor - C Developer Jobs in Egypt</a></li>
+                    <li><a href="https://wellfound.com/role/l/cplusplus-developer/egypt" target="_blank">Wellfound - C++ Developer Jobs in Egypt</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="application-strategy">
+            <h2>Application Strategy Recommendations</h2>
+            
+            <div class="strategy-item">
+                <h3>1. Tailor Your Application for Each Position</h3>
+                <ul>
+                    <li>Customize your cover letter to highlight relevant experience for each specific role</li>
+                    <li>For Luxoft, emphasize your embedded systems projects and experience</li>
+                    <li>For Atomica, highlight your C++ OOP skills and any graphics programming experience</li>
+                </ul>
+            </div>
+            
+            <div class="strategy-item">
+                <h3>2. Prepare for Technical Interviews</h3>
+                <ul>
+                    <li>Review C++ fundamentals, especially modern C++ features (C++11/14/17)</li>
+                    <li>Practice data structures and algorithms problems</li>
+                    <li>Be ready to discuss your embedded systems projects in detail</li>
+                    <li>Prepare to demonstrate your problem-solving approach</li>
+                </ul>
+            </div>
+            
+            <div class="strategy-item">
+                <h3>3. Highlight Your Recent Experience</h3>
+                <ul>
+                    <li>Emphasize your current role as a C++ Software Engineer at Beyond Apps Group</li>
+                    <li>Showcase your practical experience with embedded systems and C++ projects</li>
+                    <li>Demonstrate your understanding of software architecture principles</li>
+                </ul>
+            </div>
+            
+            <div class="strategy-item">
+                <h3>4. Leverage Your GitHub Portfolio</h3>
+                <ul>
+                    <li>Ensure your GitHub projects are well-documented</li>
+                    <li>Consider adding READMEs to your projects that explain the technical challenges and your solutions</li>
+                    <li>Link to specific GitHub repositories in your applications</li>
+                </ul>
+            </div>
+            
+            <div class="strategy-item">
+                <h3>5. Network with Local C++ Developers</h3>
+                <ul>
+                    <li>Join local developer communities or meetups in Cairo</li>
+                    <li>Connect with employees at target companies on LinkedIn</li>
+                    <li>Participate in online forums related to C++ development</li>
+                </ul>
+            </div>
+            
+            <div class="strategy-item">
+                <h3>6. Follow Up After Applications</h3>
+                <ul>
+                    <li>Send a follow-up email 1-2 weeks after applying if you haven't heard back</li>
+                    <li>Express continued interest in the position and company</li>
+                    <li>Offer to provide any additional information they might need</li>
+                </ul>
+            </div>
         </section>
     </main>
 
