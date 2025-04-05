@@ -12,8 +12,8 @@ This repository contains the source code for Abdullah Khairy's professional C++ 
 1. Clone this repository to your local machine
 2. Make changes to the HTML or CSS files
 3. Commit and push your changes
-4. The website will automatically update (if connected to a deployment service)
-
+4. The website will automatically update 
 ## Deployment
 
-The website is currently deployed at: https://wsywsrio.manus.space
+The website is currently deployed at: 
+https://abdallahkhairy.github.io/cv-portfolio-website/
